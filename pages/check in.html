@@ -36,15 +36,47 @@
                 <span>Ocupado</span>
             </div>-->
 
+            <table>
+                <colgroup>
+                    <col span="4" style="border: none">
+                    <col span="4" style="border: none;"
+                  </colgroup>
+                <thead >
+                    <tr>
+                        <td colspan="2">uno</td>
+                        <td colspan="2">dos</td>
+                        <td colspan="2">tres</td>
+                        <td colspan="2">cuatro</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <div class="calendario">
-                <table id="abrilTabla">
-                    <thead style="border: solid black" style="border: 2px">
+
+                <table id="calendarioTabla">
+                    <thead >
                         <tr>
-                            <td colspan="8">Marzo-Abril 2023</td>
+                            <td></td>
+                            <td colspan="8" style="border: solid black" style="border: 2px">Marzo-Abril 2023</td>
+                            <td style="border:none;"></td>
+                            <td colspan="8" style="border: solid black" style="border: 2px">Mayo-Junio 2023</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td rowspan="8"></td>
                             <td>30</td>
                             <td>31</td>
                             <td style="background-color:red">1</td>
@@ -53,47 +85,9 @@
                             <td>4</td>
                             <td>5</td>
                             <td>6</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>8</td>
-                            <td style="background-color:red">9</td>
-                            <td>10</td>
-                            <td>11</td>
-                            <td>12</td>
-                            <td>13</td>
-                            <td>14</td>
-                        </tr>
-                        <tr>
-                            <td style="background-color:red">15</td>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>18</td>
-                            <td style="background-color:red">19</td>
-                            <td>20</td>
-                            <td>21</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td style="background-color:red">23</td>
-                            <td style="background-color:red">24</td>
-                            <td>25</td>
-                            <td>26</td>
-                            <td>27</td>
-                            <td>28</td>
-                            <td>29</td>
-                            <td>30</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table id="mayoTabla">
-                    <thead style="border: solid black" style="border: 2px">
-                        <tr>
-                            <td colspan="8">Mayo-Junio 2023</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
+
+                            <td rowspan="9" style="border:none;"></td>
+
                             <td>1</td>
                             <td>2</td>
                             <td>3</td>
@@ -104,6 +98,15 @@
                             <td>8</td>
                         </tr>
                         <tr>
+                            <td>7</td>
+                            <td>8</td>
+                            <td style="background-color:red">9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+
                             <td>9</td>
                             <td>10</td>
                             <td>11</td>
@@ -114,6 +117,15 @@
                             <td>16</td>
                         </tr>
                         <tr>
+                            <td style="background-color:red">15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td style="background-color:red">19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+
                             <td>17</td>
                             <td>18</td>
                             <td>19</td>
@@ -123,7 +135,16 @@
                             <td>23</td>
                             <td>24</td>
                         </tr>
-                        <tr>
+                        
+                            <td style="background-color:red">23</td>
+                            <td style="background-color:red">24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+
                             <td>25</td>
                             <td>26</td>
                             <td>28</td>
@@ -132,9 +153,11 @@
                             <td>31</td>
                             <td>1</td>
                             <td>2</td>
+                        
                         </tr>
                     </tbody>
                 </table>
+                
             </div>
 
     </div>

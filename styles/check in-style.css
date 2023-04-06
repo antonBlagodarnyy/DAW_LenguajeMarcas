@@ -71,17 +71,13 @@ body{
       margin:5px;
       
     }
-    .calendario #abrilTabla{
+    .calendario #calendarioTabla{
       display:inline-block;
       border:none;
       padding:10px;  
     }
-    .calendario #mayoTabla{
-      display:inline-block;
-      border:none;
-      padding:10px;
-    }
-    table, th, td{
+   
+    .calendario table, th, td{
       border: 1px solid  rgb(180, 180, 180);
       border-collapse: collapse;
     }
