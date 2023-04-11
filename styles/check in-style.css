@@ -3,8 +3,8 @@
 }
 body{
   margin:0;
-  font-family: Helvetica;
 }
+
 /**Cabecera**/
 #banner {
     position: relative;
@@ -14,17 +14,22 @@ body{
   }
  #titulo{
     position:absolute;
-    top:140px;
+    top:160px;
     left: 30%;
     transform: translateX(-50%);
     color:azure;
     text-shadow: 0 0 20px #000000;
-    font-family: Helvetica;
   }
 
     /*Cabecera navbar*/
     .contenedorHeader nav {
       position: absolute;
+
+      /*Centra el logo y el nav*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
       top: 0px;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.4);
@@ -36,10 +41,13 @@ body{
       margin: 0;
       padding: 0;
       }
-      .contenedorHeader nav ul #logo { 
+      .contenedorHeader #logo { 
       width:100px;
-
-    }
+      margin:10px;
+      text-align: center;
+      width:100px;
+      height:101px;
+      }
     .contenedorHeader nav li {
       display: inline-block;
     }
@@ -71,7 +79,7 @@ body{
       margin:5px;
       
     }
-    .calendario #calendarioTabla{
+    .calendario #calendarioTablaMarzo-Abril, #calendarioTablaMayo-Junio{
       display:inline-block;
       border:none;
       padding:10px;  
@@ -80,6 +88,9 @@ body{
     .calendario table, th, td{
       border: 1px solid  rgb(180, 180, 180);
       border-collapse: collapse;
+    }
+    .calendario .sideBar{
+      border: none;
     }
     tbody td{
       width:50px;

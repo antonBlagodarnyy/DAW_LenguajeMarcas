@@ -13,7 +13,7 @@ body{
   }
  #titulo{
     position:absolute;
-    top:140px;
+    top:160px;
     left: 30%;
     transform: translateX(-50%);
     text-shadow: 0 0 20px #000000;
@@ -24,19 +24,29 @@ body{
   /*Cabecera navbar*/
   .contenedorHeader nav {
     position: absolute;
-      top: 0px;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-      overflow: hidden;
+
+    /*Centra el logo y el nav*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
   }
   .contenedorHeader nav ul {
     text-align: center;
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     }
-    .contenedorHeader nav ul #logo { 
+    .contenedorHeader #logo { 
     width:100px;
+    margin:10px;
+    text-align: center;
+    width:100px;
+    height:101px;
   }
   .contenedorHeader nav li {
     display: inline-block;
@@ -70,7 +80,8 @@ body{
     width: 200px;
     height: 200px;
     margin: 10px;
-    border: 1px solid #ccc;
+    border: none;
+    border-radius: 10px;
     object-fit: cover;
   }
 
